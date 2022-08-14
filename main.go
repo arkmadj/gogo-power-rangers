@@ -1,13 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+var score = 99.5
 
 func main() {
-	var nameOne string = "Zultan"
-	var nameTwo = "Ahmad"
-	var nameThree string
-	nameFous := "Adekunle"
+	sayHello(("Zultan"))
 
-	fmt.Println(nameOne, nameTwo, nameThree, nameFous)
+	for _, v := range points {
+		fmt.Println(v)
+	}
+
+	showScore()
 
 }
